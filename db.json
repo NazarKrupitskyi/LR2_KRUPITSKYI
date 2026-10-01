@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "role": "admin",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "name": "John",
+      "email": "john@example.com",
+      "role": "user",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "name": "Matt",
+      "email": "matttt@example.com",
+      "role": "user",
+      "status": "active"
+    }
+  ],
+  "posts": [
+    {
+      "id": 21,
+      "title": "Prototypes in Physics",
+      "userId": 2,
+      "tags": [ "Physics", "Mechanics" ]
+    },
+    {
+      "id": 22,
+      "title": "Mathematical Equations isn't a problem anymore!",
+      "userId": 3,
+      "tags": [ "Math", "AI" ]
+    },
+    {
+      "id": 23,
+      "title": "Rules Change",
+      "userId": 1,
+      "tags": [ "Admin", "Rules" ]
+    }
+  ]
+}
